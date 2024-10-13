@@ -6,10 +6,10 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recha
 import Layout from '../components/Layout';
 
 const userData = [
-    { id: 1, name: 'Alice', email: 'alice@example.com', status: 'Active', age: 28, location: 'New York', profilePicture: 'https://via.placeholder.com/100' },
-    { id: 2, name: 'Bob', email: 'bob@example.com', status: 'Blocked', age: 32, location: 'San Francisco', profilePicture: 'https://via.placeholder.com/100' },
-    { id: 3, name: 'Carol', email: 'carol@example.com', status: 'Active', age: 24, location: 'Los Angeles', profilePicture: 'https://via.placeholder.com/100' },
-    { id: 4, name: 'David', email: 'david@example.com', status: 'Blocked', age: 30, location: 'Chicago', profilePicture: 'https://via.placeholder.com/100' },
+    { id: 1, name: 'Alice', email: 'alice@example.com', status: 'Active', age: 28, location: 'New York', profilePicture: 'https://avatar.iran.liara.run/public/girl?username=Alice' },
+    { id: 2, name: 'Bob', email: 'bob@example.com', status: 'Blocked', age: 32, location: 'San Francisco', profilePicture: 'https://avatar.iran.liara.run/username?username=Bob' },
+    { id: 3, name: 'Carol', email: 'carol@example.com', status: 'Active', age: 24, location: 'Los Angeles', profilePicture: `https://avatar.iran.liara.run/public/girl?username=Carol` },
+    { id: 4, name: 'David', email: 'david@example.com', status: 'Blocked', age: 30, location: 'Chicago', profilePicture: `https://avatar.iran.liara.run/public/boy?username=David` },
 ];
 
 const userActivityData = [
@@ -137,7 +137,6 @@ const Users = () => {
                         </motion.div>
                     </div>
                 )}
-
             </div>
         </Layout>
     );
